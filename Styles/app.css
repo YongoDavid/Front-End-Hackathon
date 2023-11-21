@@ -1,0 +1,188 @@
+/* MY STYLING RESET  */
+
+/* ALL STYLES BELOW ARE FOR MOBILE FIRST  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* MAIN NAVIGATION STYLE  */
+nav{
+background-color: #1C181D;
+display: flex;
+padding: 12px 16px;
+align-items: flex-end;
+gap: 8px;
+flex: 1 0 0;
+}
+/* NAIGATION SHOPIFY LOGO STYLE  */
+.nav-Left svg{
+cursor: pointer;
+width: 32px;
+height: 32px;
+}
+/* NAVIGATION MAIN SEARCH AREA  */
+.nav-Search{
+display: flex;
+height: 32px;
+padding: 8px;
+align-items: center;
+gap: 6px;
+flex: 1 0 0;
+border-radius: 8px;
+border: 1px solid var(--stroke-s-200, #616161);
+background: var(--grey-g-200, #303030);
+}
+/* THE SEARCH ICON STYLE */
+.search-Logo svg{
+width: 20px;
+height: 20px;
+color: hsla(0, 0%, 71%, 1);
+fill: hsla(0, 0%, 71%, 1);
+}
+/* THE SEARCH TEXT STYLE  */
+.nav-Search p{
+color: var(--grey-g-100, #B5B5B5);
+color: hsla(0, 0%, 71%, 1);
+/* Text-13/medium */
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 18.2px */
+}
+/* THE BELL ICON AREA STYLE  */
+.nav-Bell button{
+/* style for the drop down  */
+position: relative;
+display: inline-block;
+
+cursor: pointer;
+border: none;
+background-color: #1C181D;
+display: flex;
+padding: 6px;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+border-radius: 8px;
+}
+/* STYLE FOR THE MAIN DROPDOWN */
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+z-index: 3;
+display: none;
+position: absolute;
+top: 50px;
+/* left: -20px; */
+right: -40px;
+width: 358px;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+border-radius: 14px;
+border: 1px solid var(--stroke-s-50, #DBDBDB);
+background: var(--White, #FFF);
+/* Drop Shadow */
+box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+.dropdown-content p{
+color: var(--font-dark, #303030);
+/* Text-14/semi bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+}
+.first-Header {
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown-container:hover .dropdown-content,
+.dropdown-container:focus-within .dropdown-content {
+  display: flex;
+}
+.dropdown-Svg{
+    position: relative;
+    left: 220px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: 56px;
+    height: 20px;
+}
+/* INNER CONTENT MESSAGE STYLE */
+.alert-InnerContent{
+display: flex;
+padding: 16px;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+background: var(--states-hover, #F1F1F1);
+}
+/* INNER CONTENT MESSAGE TEXT STYLE */
+.alert-InnerContent > p{
+color: var(--font-dark, #303030);
+text-align: center;
+/* Text-13/semi bold */
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 18.2px */
+}
+
+/* THE BELL ICON STYLE  */
+.nav-Bell svg{
+width: 20px;
+height: 20px;
+color: hsla(0, 0%, 89%, 1);
+}
+
+/* NAV BELL BUTTON DROP DOWN  */
+
+
+/* THE PROFILE AREA STYE  */
+.nav-Profile {
+display: flex;
+padding: 2px;
+align-items: center;
+gap: 8px;
+}
+/* CONTAINER INSIDE THE PROFILE STYLE  */
+.nav-Profile button{
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+cursor: pointer;
+border: none;
+display: flex;
+height: 28px;
+padding: 9px 5px 10px 5px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background: #36FBA1;
+}
+/* THE PROFILE TEXT STYLE  */
+.nav-Profile button h4{
+justify-content: center;
+align-items: center;
+color: rgba(0, 0, 0, 0.40);
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+/* Text-12/medium */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 15.6px */
+}
