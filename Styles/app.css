@@ -195,8 +195,7 @@ justify-content: center;
 align-items: center;
 color: rgba(0, 0, 0, 0.40);
 text-align: center;
-leading-trim: both;
-text-edge: cap;
+
 /* Text-12/medium */
 font-family: Inter;
 font-size: 12px;
@@ -351,16 +350,16 @@ border-radius: 10px;
 background: #fff;
 
 }
-.inner-Menu{
-/* width: 326px;
-height: 121px; */
-/* display: flex;
+/* .inner-Menu{
+width: 326px;
+height: 121px;
+display: flex;
 padding: 2px 0px;
 flex-direction: column;
 align-items: flex-start;
 gap: 16px;
-flex: 1 0 0; */
-}
+flex: 1 0 0;
+} */
 .inner-Menu h2{
 margin-top: 4px;
 color: var(--font-dark, var(--grey-g-200, #303030));
