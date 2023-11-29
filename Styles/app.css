@@ -440,5 +440,19 @@ padding: 8px 8px 12px 8px;
   display: flex;
 }
 
+/* Default styles for larger screens (desktop) */
+.setup-Menu1 {
+  /* Your existing styles for larger screens (desktop) */
+}
+
+/* Default media query for screens up to 768 pixels wide (mobile) */
+@media only screen and (max-width: 768px) {
+  .setup-Menu1 {
+    /* Styles for smaller screens (mobile) go here */
+  }
+
+  /* Additional styles for other elements on smaller screens if needed */
+}
+
 
 /* INEED TO COONTINUE FROM WHERE IS STOPPED WHICH IS THE FIRST GUIDE */
